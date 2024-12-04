@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilford Arc</title>
+    <link rel="stylesheet" href="/finproj/css/arc.css">
+    <link rel="stylesheet" href="/finproj/css/styles.css">
+
+    
+</head>
+<body>
+    <div class ="file2">
+        <div class="item1">
+            <a href="/finproj/3arc/3cosmic.html"> <img src="/finproj/img/ideas.jpg" alt="Icon 1"></a>
+            
+        </div>
+
+        <div class="item2">
+            <a href="/finproj/3arc/3note.html"><img src="/finproj/img/noote.jpg" alt="Icon 2"></a>
+        </div>
+
+    </div>
+
+    <div class = "questionbox">
+
+        <span class = "question">What will...</span>
+        <br>        <br>
+        <a id="ending-link" href="#">become of them?</a>
+
+</div>
+
+<script>
+
+       function getUrlParameter(name) {
+           const urlParams = new URLSearchParams(window.location.search);
+           return urlParams.get(name);
+       }
+
+
+       window.onload = function() {
+           const route = getUrlParameter('route');
+           const endingLink = document.getElementById('ending-link');
+          
+           if (route === '1') {
+               endingLink.href = '/finproj/ending/goodending.html';
+               endingLink.innerText = 'Their fate...';
+           } else if (route === '2') {
+               endingLink.href = '/finproj/ending/neutralending.html';
+               endingLink.innerText = 'Their fate...';
+           }
+       }
+
+</script>
+
+</body>
+
+</html>

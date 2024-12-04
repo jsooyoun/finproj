@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMT</title>
+    <link href="/finproj/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="/finproj/css/quarasuccess.css">
+
+</head>
+    <body>
+
+        <input type="checkbox" id="checkbox-cover">
+        <input type="checkbox" id="checkbox-page1">
+        <div class="book">
+            <div class="cover">
+                <label for="checkbox-cover" class="book-label">
+                    <div class="book-title">Fictional Multiverse Theory</div><br>
+                    <div class="book-author">by Thomas L. Kos</div>
+                </label>
+            </div>
+            <div class="page" id="page1">
+                <div class="front-page">
+                    <p>
+                    Thus, the mathematical modeling of advanced quantum topology and the study of narrative causality discussed in the previous section strongly suggests that works of fiction can correspond to their own discrete dimension, governed by a unique set of laws, history, and entities. Fictional worlds are not merely imaginative constructs but fully realized universes, as real within their own context as our own universe. The line between fiction and reality, once thought absolute, is in fact a permeable boundary—each fictional world a parallel dimension, fully autonomous yet part of a larger, interconnected multiverse of possibility.
+                    </p>
+                </div>
+                <div class="back-page"></div>
+            </div>
+            <div class="back-cover"></div>
+        </div>
+
+
+        <a href="/finproj/quarasuccess/2arc.html">
+            <button>Back</button>
+        </a>
+
+        <script>
+            // Add keydown event listener to the label with tabindex="0"
+            const bookCoverLabel = document.querySelector('.book-label');
+    
+            bookCoverLabel.addEventListener('keydown', function(event) {
+                // When the user presses Enter, toggle the checkbox to open the book cover
+                if (event.key === 'Enter') {
+                    const coverCheckbox = document.getElementById('checkbox-cover');
+                    coverCheckbox.checked = !coverCheckbox.checked; // Toggle the checkbox
+                }
+            });
+            </script>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+#letter {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    overflow: hidden;
+    border: black solid 1px;
+    padding: 22px;
+    box-shadow: 0 0 10px 2px;
+    background-image: url(/img/old-grey-grainy-paper-background-texture_271293-3.jpg);
+}
+  
+  .letter-container {
+    width: 60%;
+    max-width: 900px;
+    background-color: #ffffff;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: auto;
+  }
+  
+  .company-info {
+    width: 70%;
+  }
+
+  .letter-details {
+    text-align: right;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 10%;
+  }
+  
+  .letter-details p {
+    margin-bottom: 5px;
+  }
+  
+  .letter-body h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .letter-body p {
+    margin-bottom: 15px;
+  }
+  
+  .letter-body ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .letter-body ul li {
+    margin-bottom: 5px;
+  }
+  
+  .letter-footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .letter-footer p {
+    margin-bottom: 5px;
+    font-style: italic;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+
+  .report-container {
+    background-color: white;
+    width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: auto;
+  }
+  
+  .report-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .report-header h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .report-id {
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  h2 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .info-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .info-table th,
+  .info-table td {
+    padding: 8px 12px;
+    text-align: left;
+  }
+  
+  .info-table th {
+    background-color: #e9ecef;
+    width: 30%;
+  }
+  
+  .info-table td {
+    background-color: #f9f9f9;
+  }
+  
+  .incident-info, .officer-info, .suspect-info, .incident-description {
+    margin-bottom: 20px;
+  }
+  
+  .incident-description p {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .report-footer {
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 30px;
+  }

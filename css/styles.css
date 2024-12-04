@@ -1,0 +1,35 @@
+*, *::before, *after {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  background-image: url(/img/table.jpg);
+}
+
+img{
+    width: 50%;
+}
+
+.intro{
+  background-color: #ffffff;
+  padding: 2%;
+  margin: auto;
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+button{
+  margin-top: 20px;
+}

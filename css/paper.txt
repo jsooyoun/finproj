@@ -1,0 +1,59 @@
+
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-header {
+    margin-bottom: 40px;
+  }
+  
+  .article-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .authors {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: arial;
+    color: blue;
+  }
+  
+  .journal-info {
+    font-size: 1em;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    color: #222;
+  }
+  
+  section p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  section ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+

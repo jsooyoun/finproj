@@ -1,0 +1,64 @@
+/* back up for folder page using flex*/
+*, *::before, *after {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;        
+    margin: 0;
+    background-image: url(pexels-fwstudio-33348-172277.jpg);
+}
+
+.file {
+    display: flex; 
+    width: 90%; 
+    height: 500px;
+    
+}
+
+/* Style for each file page */
+.filepage1 {
+    background-color: blanchedalmond;                
+    display: flex;                
+    flex-direction: column;        
+    align-items: center;  
+   justify-content: center;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.filepage2 {
+    background-color: blanchedalmond;                
+    display: flex;                
+    flex-direction: column;        
+    align-items: center;  
+   justify-content: center;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.filepage1 a{
+ display: block;
+ margin: auto;
+}
+
+.filepage2 a{
+    display: block;
+    margin: auto;
+    height: 90%;
+}
+
+img{
+    object-fit: cover;
+    width: 90%;               
+    height: 90%; 
+    margin: 10px 0; 
+    display:block;
+    margin: auto;
+}
+
+

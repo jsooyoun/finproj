@@ -1,0 +1,58 @@
+/* Reset and basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.journal-container {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.lined-paper {
+  position: relative;
+  background-color: #fff;
+  padding: 30px 30px 20px 30px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.header p {
+  color: #666;
+  font-size: 14px;
+}
+
+.journal-entry {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  padding-left: 5px;
+  position: relative;
+  z-index: 1;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+/* Adding a subtle texture for authenticity */
+.lined-paper {
+  background: url('https://www.transparenttextures.com/patterns/cotton-fabric.png');
+  background-color: #fff;
+}
+
+/* Style for the text paragraphs */
+.journal-entry p {
+  margin-bottom: 20px;
+  text-indent: 30px; /* Indent the first line for a more realistic journal effect */
+}

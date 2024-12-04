@@ -1,0 +1,160 @@
+.email-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e1e1e1;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.body-text {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.email-header {
+    font-family: "Courier New", Courier, monospace;
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+.book {
+    margin: auto;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    transition-duration: 1s;
+    margin-top: 2%;
+  }
+  input {
+    display: none;
+  }
+  .cover, .back-cover {
+    background-color: #e36c6c;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 0 5px rgb(41, 41, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center left;
+  }
+  .cover {
+    position: absolute;
+    z-index: 4;
+    transition: transform 1s;
+  }
+  .cover label {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  .back-cover {
+    position: relative;
+    z-index: -1;
+  }
+  .page {
+    position: absolute;
+    background-color: #f3dfc1;
+    width: 330px;
+    height: 430px;
+    border-radius: 0 15px 15px 0;
+    margin-top: 10px;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition-duration: 1.5s;
+  }
+  
+  .front-page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+  
+  #page1 {
+    z-index: 3;
+  }
+  
+  #checkbox-cover:checked ~ .book {
+    transform: translateX(200px);
+  }
+  #checkbox-cover:checked ~ .book .cover {
+    transition: transform 1.5s, z-index 0.5s 0.5s;
+    transform: rotateY(-180deg);
+    z-index: 1;
+
+    .book-title, .book-author {
+    display: none;
+    }
+  }
+
+  .book-label {
+    font-family: 'Georgia', serif; 
+    font-size: 18px; 
+    color: #333; 
+    display: block; 
+    margin: 20px 0; 
+    line-height: 1.5; 
+  }
+  
+  .book-title {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #000; 
+    text-transform: capitalize; 
+    text-align: center;
+    margin-top: inherit;
+    padding: 10px;
+  }
+  
+  .book-author {
+    font-size: 18px; 
+    font-style: italic; 
+    color: #131313; 
+    text-align: center;
+  }
+
+  .quiz-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  
+  textarea{
+    width: 99%;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  

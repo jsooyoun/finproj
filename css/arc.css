@@ -1,0 +1,64 @@
+*, *::before, *after {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+body {
+    place-items: center;
+    background-image: url(pexels-fwstudio-33348-172277.jpg);
+}
+
+.file {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%; 
+    height: 450px;
+    background-color: blanchedalmond;    
+    justify-content: center; 
+    align-items: center; 
+    justify-self: center;
+    box-shadow: 4px 5px rgb(95, 94, 94);
+    gap: 1px; 
+    border: 1px solid #000; 
+}
+
+
+.file2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%; 
+    height: 450px;
+    background-color: blanchedalmond;    
+    justify-content: center; 
+    align-items: center; 
+    justify-self: center;
+    box-shadow: 4px 5px rgb(95, 94, 94);
+    gap: 1px; 
+    border: 1px solid #000; 
+}
+
+
+.text {
+    background-color: white;
+    text-align: center;
+    justify-self: center;
+
+}
+
+img{
+    object-fit: cover;
+    width: 90%;               
+    height: 90%; 
+    display:block;
+    margin: auto;
+}
+
+.questionbox{
+    background-color: aliceblue;
+    padding: 2%;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.1);
+
+}
